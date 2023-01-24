@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+void main() {
+
+char a[10],b[10];
+
+printf("Enter any String : ");
+
+scanf("%s",a);
+
+printf("a=%s",a);
+
+strcpy(b,a);
+
+strrev(b);
+
+printf("\nb=%s",b);
+
+if(strcmp(a,b)==0) {
+
+printf("\nString is Palindrome");
+
+}
+
+else {
+
+printf("\nNot Palindrome");
+
+}
+
+getch();
+
+}
